@@ -1,0 +1,499 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TinTuc.master.cs" Inherits="GioiThieuLeHoiKhmer.TinTuc" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Tin Tức</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* header */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero {
+            position: relative;
+            background-image: url('image/banner_2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 30vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+            .nav-links li a {
+                color: white;
+                text-decoration: none;
+            }
+
+        .social-icons a img {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        .hero-content h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo img {
+                height: 70px;
+            }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #fff;
+            color: #333;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #fff;
+            color: #333;
+        }
+        /* end header */
+        /* footer */
+        footer {
+            background-color: #333;
+            color: #ccc;
+            padding: 50px 40px 20px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 220px;
+            margin-bottom: 30px;
+        }
+
+        .footer-logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+            .footer-logo i {
+                font-size: 28px;
+                color: #fff;
+            }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+            .social-icons a {
+                background: #555;
+                color: white;
+                border-radius: 50%;
+                padding: 10px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 14px;
+                transition: background 0.3s;
+            }
+
+                .social-icons a:hover {
+                    background: #777;
+                }
+
+        .footer-column h4 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .footer-column p,
+        .footer-column a {
+            color: #bbb;
+            font-size: 14px;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+
+        .subscribe-input {
+            display: flex;
+            align-items: center;
+            background: #666;
+            padding: 10px;
+            border-radius: 6px;
+            max-width: 300px;
+        }
+
+            .subscribe-input input {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: white;
+                font-size: 14px;
+                flex: 1;
+            }
+
+            .subscribe-input i {
+                color: #78bbe6;
+            }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 10px;
+            font-size: 13px;
+            color: #888;
+        }
+        /* end footer */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: #fff;
+            color: #333;
+            padding: 30px;
+            line-height: 1.6;
+        }
+
+        .featured-article {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 40px;
+        }
+
+            .featured-article img {
+                width: 100%;
+                height: auto;
+                border-radius: 6px;
+            }
+
+            .featured-article .content {
+                margin-top: 20px;
+            }
+
+            .featured-article .category {
+                font-style: italic;
+                color: #000;
+                font-size: 18px;
+                margin-bottom: 8px;
+            }
+
+            .featured-article h1 {
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font-size: 26px;
+                margin: 10px 0;
+            }
+
+            .featured-article .tag {
+                font-size: 13px;
+                color: #999;
+                margin-bottom: 15px;
+                letter-spacing: 1px;
+            }
+
+            .featured-article .description {
+                color: #444;
+                padding: 0 20px;
+                max-width: 700px;
+                margin: auto;
+            }
+
+        .read-more {
+            margin-top: 20px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #000;
+            font-weight: bold;
+        }
+
+        .social-icons {
+            margin-top: 15px;
+        }
+
+            .social-icons a {
+                margin: 0 8px;
+                color: #333;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+        .sub-articles {
+            max-width: 1000px;
+            margin: 60px auto;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            background: #fafafa;
+        }
+
+            .card:hover {
+                transform: translateY(-5px);
+            }
+
+            .card img {
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+            }
+
+        .card-content {
+            padding: 15px;
+            text-align: center;
+        }
+
+            .card-content .country {
+                font-style: italic;
+                color: #222;
+                font-size: 14px;
+            }
+
+            .card-content h3 {
+                font-size: 16px;
+                margin: 10px 0;
+            }
+
+            .card-content .type {
+                font-size: 12px;
+                color: #999;
+                letter-spacing: 1px;
+            }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="Default.aspx">Trang chủ</a></li>
+                <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
+                <li><a href="Lehoi.aspx">Lễ hội</a></li>
+                <li><a href="TinTuc.aspx">Tin tức</a></li>
+                <li><a href="LienHe.aspx">Liên hệ</a></li>
+            </ul>
+
+            <div class="social-icons">
+                <a href="#">
+                    <img src="icons/instagram.svg" />Đăng nhập</a>
+            </div>
+
+        </nav>
+
+        <div class="hero-content">
+            <h1>Tin Tức</h1>
+        </div>
+    </header>
+    <br />
+
+    <!-- 
+    <section class="featured-article">
+        <img src="https://vietreader.com/uploads/news/2021/04/13/1618293652-7-le-hoi-dac-sac-cua-dong-bao-khmer.jpg" alt="Lễ hội Khmer">
+        <div class="content">
+            <p class="category">Khmer</p>
+            <h1>Lễ hội cổ truyền Chôl Chnăm Thmây</h1>
+            <p class="tag">Văn hóa lễ hội</p>
+            <p class="description">
+                Lễ hội Chôl Chnăm Thmây là dịp mừng năm mới theo lịch Khmer, diễn ra vào giữa tháng 4. Người Khmer tổ chức lễ rước nước, tắm Phật, cầu phúc và vui chơi truyền thống trong không khí linh thiêng, rộn ràng.
+            </p>
+            <p class="read-more">Keep reading...</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sub-articles">
+        <div class="card">
+            <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/10/9/1098745/Nguoi-Khmer_1.jpg" alt="Con người Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Con người Khmer: Giản dị và chân thành</h3>
+                <p class="type">Cuộc sống</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://file1.dangcongsan.vn/data/0/images/2023/11/01/upload_420/vanhoa.jpg" alt="Văn hóa Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Văn hóa Khmer đậm đà bản sắc</h3>
+                <p class="type">Truyền thống</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://cdnmedia.baotintuc.vn/Upload/qP8n4cY8YsoXlABqx4LyA/files/2019/04/13/13-4-Khmer-5.jpg" alt="Đời sống Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Đời sống thường nhật người Khmer</h3>
+                <p class="type">Góc nhìn</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sub-articles">
+        <div class="card">
+            <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/10/9/1098745/Nguoi-Khmer_1.jpg" alt="Con người Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Con người Khmer: Giản dị và chân thành</h3>
+                <p class="type">Cuộc sống</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://file1.dangcongsan.vn/data/0/images/2023/11/01/upload_420/vanhoa.jpg" alt="Văn hóa Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Văn hóa Khmer đậm đà bản sắc</h3>
+                <p class="type">Truyền thống</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://cdnmedia.baotintuc.vn/Upload/qP8n4cY8YsoXlABqx4LyA/files/2019/04/13/13-4-Khmer-5.jpg" alt="Đời sống Khmer">
+            <div class="card-content">
+                <p class="country">Khmer</p>
+                <h3>Đời sống thường nhật người Khmer</h3>
+                <p class="type">Góc nhìn</p>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-circle-notch"></i>
+                    <div class="logo">
+                        <img src="image/logo.png" alt="Logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h4>Liên hệ</h4>
+                <p>khmer@gmail.com</p>
+                <p>Hồ Chí Minh, Việt Nam</p>
+                <p>+84 123456789</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Đăng ký</h4>
+                <p>Nhập Email của bạn để nhận thông báo mới nhất của chúng tôi</p>
+                <div class="subscribe-input">
+                    <input type="email" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Nguyen Tu Quy. ASP.NET
+        </div>
+    </footer>
+</body>
+</html>
