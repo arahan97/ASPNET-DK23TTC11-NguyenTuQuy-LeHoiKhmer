@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addUser.aspx.cs" Inherits="GioiThieuLeHoiKhmer.addUser" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addUser.aspx.cs" Inherits="GioiThieuLeHoiKhmer.Admin.addUser" %>
 
 <!DOCTYPE html>
 
@@ -55,7 +55,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="form-container">
-             <a href="UserList.aspx"  color: white; padding: 8px 16px> ←</a>
+             <a href="Admin/UserList.aspx"  color: white; padding: 8px 16px> ←</a>
             <h2>Thêm người dùng mới</h2>
 
             <div class="form-group">

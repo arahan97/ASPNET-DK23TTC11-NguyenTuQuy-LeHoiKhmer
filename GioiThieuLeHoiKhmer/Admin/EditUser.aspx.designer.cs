@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GioiThieuLeHoiKhmer
+namespace GioiThieuLeHoiKhmer.Admin
 {
 
 

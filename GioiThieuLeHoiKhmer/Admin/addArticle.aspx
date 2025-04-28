@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addArticle.aspx.cs" Inherits="GioiThieuLeHoiKhmer.addArticle" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="addArticle.aspx.cs" Inherits="GioiThieuLeHoiKhmer.Admin.addArticle" %>
 
 <!DOCTYPE html>
 

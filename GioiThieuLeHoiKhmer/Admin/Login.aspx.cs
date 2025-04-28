@@ -10,7 +10,7 @@ using System.Web.UI.WebControls;
 using System;
 using System.Data.SqlClient;
 
-namespace GioiThieuLeHoiKhmer
+namespace GioiThieuLeHoiKhmer.Admin
 {
     public partial class Login : System.Web.UI.Page
     {

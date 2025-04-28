@@ -8,7 +8,8 @@ using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace GioiThieuLeHoiKhmer
+namespace GioiThieuLeHoiKhmer.Admin
+
 {
     public partial class ArticlesList : System.Web.UI.Page
     {
@@ -70,7 +71,7 @@ namespace GioiThieuLeHoiKhmer
             }
             else if (e.CommandName == "ViewArticle")
             {
-                Response.Redirect("ViewArticle.aspx?id=" + articleId); // Chuyển đến trang xem chi tiết
+                Response.Redirect($"/ViewArticle.aspx?id=" + articleId); // Chuyển đến trang xem chi tiết
             }
         }
 
