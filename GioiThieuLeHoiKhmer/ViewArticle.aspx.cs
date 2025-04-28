@@ -30,7 +30,7 @@ namespace GioiThieuLeHoiKhmer
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 conn.Open();
-                string sql = "SELECT Title, Summary, Content, ImagePath FROM Articles WHERE ArticleID = @ArticleID";
+                string sql = "SELECT Title, Summary, Content, ImagePath, CreatedAt FROM Articles WHERE ArticleID = @ArticleID";
 
                 using (SqlCommand cmd = new SqlCommand(sql, conn))
                 {

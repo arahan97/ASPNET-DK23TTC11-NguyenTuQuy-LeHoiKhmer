@@ -68,6 +68,7 @@
 <body>
     <form id="form1" runat="server" enctype="multipart/form-data">
         <div class="form-container">
+             <a href="ArticlesList.aspx"  color: white; padding: 8px 16px> ←</a>
             <h2>Sửa bài viết</h2>
 
             <asp:Label Text="Tiêu đề" runat="server" />

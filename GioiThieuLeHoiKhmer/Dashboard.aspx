@@ -52,7 +52,7 @@
         .logout {
             float: right;
             font-size: 16px;
-            color: white;
+            color: #;
             text-decoration: none;
             margin-top: -5px;
         }
@@ -66,23 +66,24 @@
     <form id="form1" runat="server">
         <div>
              <div class="header">
-        Bảng điều khiển (Dashboard)
-        <a href="Login.aspx" class="logout">Đăng xuất</a>
+        Người dùng:
+                 <asp:Label ID="lblUserInfo"  runat="server" ForeColor="White"></asp:Label> 
+                 <asp:Button ID="Button1" runat="server" Text="Đăng xuất" class="logout" OnClick="btnClear_Click" /> 
     </div>
 
     <div class="container">
         <div class="card">
-             <div class="card-body">
-        <h3 class="card-title">Tổng số bài viết</h3>
-        <asp:Label ID="lblTotalArticles" runat="server" Font-Size="XX-Large" ForeColor="Blue"></asp:Label>
+             <div class="card-body" id="cardPosts" runat="server">
+        <h3 class="card-title">Tổng số bài viết: <asp:Label ID="lblTotalArticles" runat="server"  ForeColor="Blue"></asp:Label></h3>
         <br /><br />
         <asp:Button ID="btnViewArticles" runat="server" Text="Xem" CssClass="btn btn-primary" OnClick="btnViewArticles_Click" />
     </div>
         </div>
 
-        <div class="card">
-            <h3>Tổng số người dùng: <asp:Label ID="lblUsersCount" runat="server" Text="0"></asp:Label></h3>
-            <p>Quản lý người dùng hệ thống</p>
+        <div class="card" id="cardUsers" runat="server">
+            <h3>Tổng số người dùng: <asp:Label ID="lblUsersCount" runat="server"  ForeColor="Blue"></asp:Label></h3>
+            <br /><br />
+        <asp:Button ID="btnUserList" runat="server" Text="Xem" CssClass="btn btn-primary" OnClick="btnViewUsers_Click" />
         </div>
     </div>
         </div>

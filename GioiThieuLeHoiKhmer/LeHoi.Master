@@ -357,10 +357,12 @@ footer {
           Chôl Chnăm Thmây là Tết cổ truyền của người Khmer, diễn ra vào tháng 4 dương lịch, nhằm đón mừng năm mới theo lịch Khmer. 
           Người dân tổ chức dâng cơm chùa, tắm tượng Phật, xây tháp cát và cầu phúc cho gia đình.
         </p>
-        <p class="read-more">Đoc thêm</p>
+        <p class="read-more">
+    <a href="ViewArticle.aspx?id=3">Đọc thêm</a>
+</p>
       </div>
       <div class="image-content">
-        <img src="image/card_2.jpg" alt="Chôl Chnăm Thmây">
+                  <a href="ViewArticle.aspx?id=3"><img src="image/card_1.jpg" ></a>
       </div>
     </div>
          <hr class="divider">
@@ -374,10 +376,12 @@ footer {
           Lễ Ok Om Bok diễn ra vào rằm tháng 10 âm lịch để tạ ơn thần Mặt Trăng đã bảo vệ mùa màng. 
           Người Khmer tổ chức đua ghe ngo, thả đèn nước và nghi lễ truyền thống đậm sắc văn hóa.
         </p>
-        <p class="read-more">Đọc thêm</p>
+       <p class="read-more">
+    <a href="ViewArticle.aspx?id=4">Đọc thêm</a>
+</p>
       </div>
       <div class="image-content">
-        <img src="image/card_1.jpg"" alt="Ok Om Bok">
+                  <a href="ViewArticle.aspx?id=4"><img src="image/card_2.jpg" ></a>
       </div>
     </div>
          <hr class="divider">
@@ -391,10 +395,12 @@ footer {
           Sene Đôlta là dịp để người Khmer tưởng nhớ tổ tiên. 
           Diễn ra vào tháng 9 âm lịch, lễ hội có các nghi lễ truyền thống, tụ họp gia đình và cúng dường tại chùa.
         </p>
-        <p class="read-more">Đọc thêm</p>
+        <p class="read-more">
+    <a href="ViewArticle.aspx?id=5">Đọc thêm</a>
+</p> 
       </div>
       <div class="image-content">
-        <img src="image/card_3.jpg"" alt="Sene Đôlta">
+                  <a href="ViewArticle.aspx?id=5"><img src="image/card_4.jpg" ></a>
       </div>
     </div>
          <hr class="divider" />
@@ -408,10 +414,12 @@ footer {
           Kathina là lễ dâng y sau mùa an cư kiết hạ, diễn ra vào tháng 10 âm lịch. 
           Phật tử Khmer mang y ca sa, vật phẩm thiết yếu đến chùa dâng lên chư Tăng với lòng thành kính.
         </p>
-        <p class="read-more">Đọc thêm</p>
+        <p class="read-more">
+            <a href="ViewArticle.aspx?id=7">Đọc thêm</a>
+        </p>
       </div>
       <div class="image-content">
-        <img src="image/card_4.jpg"" alt="Kathina">
+                  <a href="ViewArticle.aspx?id=7"><img src="image/card_4.jpg" ></a>
       </div>
     </div>
 

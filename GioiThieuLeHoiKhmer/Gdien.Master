@@ -45,7 +45,7 @@
             text-decoration: none;
         }
         .social-icons a img {
-            width: 20px;
+            width: 30px;
             margin-left: 10px;
         }
         .hero-content h2 {
@@ -285,8 +285,8 @@
     margin-right: 15px;
 }
 .social-icons img {
-    width: 28px;
-    height: 28px;
+    width: 35px;
+    height: 35px;
 }
 
 .trip-cards {
@@ -463,7 +463,7 @@
     }
 
     .social-icons a {
-      background: #555;
+      background: #fff;
       color: white;
       border-radius: 50%;
       padding: 10px;
@@ -558,7 +558,7 @@
             </ul>
            
             <div class="social-icons">
-                <a href="#"><img src="icons/instagram.svg"/>Đăng nhập</a>
+                <a href="login.aspx"><img src="image/icon_user.png"/></a>
             </div>
         
         </nav>
@@ -566,7 +566,7 @@
         <div class="hero-content">
             <h2>Ok Om Bok</h2>
             <h1>Lễ Hội cúng Trăng</h1>
-            <a href="#" class="btn">Xem Thêm</a>
+            <a href="ViewArticle.aspx?id=4" class="btn">Xem Thêm</a>
         </div>
     </header>
     <br />
@@ -578,7 +578,7 @@
                     <h3>Lễ hội</h3>
                     <h2>Những lễ hội của người Khmer</h2>
                     <p>Các lễ hội lớn ở của người người Khmer...</p>
-                    <a href="#">Đọc thêm...</a>
+                    <a href="LeHoi.aspx">Đọc thêm...</a>
                 </div>
                 <div class="slide-image">
                     <img src="image/slide_1.jpg" alt="Slide 1">
@@ -589,7 +589,7 @@
                     <h3>Văn hóa</h3>
                     <h2>Bản sắc văn hóa của người Khmer</h2>
                     <p>Văn hóa, tín ngưỡng của người Khmer...</p>
-                    <a href="#">Đọc thêm...</a>
+                    <a href="ViewArticle.aspx?id=8">Đọc thêm...</a>
                     
                 </div>
                 <div class="slide-image">
@@ -601,7 +601,7 @@
                     <h3>Trang phục</h3>
                     <h2>Những trang phục truyền thống của người Khmer</h2>
                     <p>Trang phục truyền thống của người Khmer rất đa dạng...</p>
-                    <a href="#">Đọc thêm...</a>
+                    <a href="ViewArticle.aspx?id=9">Đọc thêm...</a>
                 
                 </div>
                 <div class="slide-image">
@@ -646,31 +646,31 @@
         <p>Những lễ hội lớn của người Khmer được tổ chức trong năm rất đa dạng và phong phú</p>
         <div class="timeline">
             <div class="timeline-item">
-                <img class="flag" src="images/spain.png" alt="Spain">
+                <img class="flag" src="image/tin_tuc_3.jpg" >
                 <div class="location">Chol Chnam Thmay</div>
                 <div class="date">14/4-17/4</div>
                 <div class="marker"></div>
             </div>
             <div class="timeline-item">
-                <img class="flag" src="images/australia.png" alt="Australia">
+                <img class="flag" src="image/card_2.jpg" >
                 <div class="location">Đua bò Bảy Núi</div>
                 <div class="date">29/9</div>
                 <div class="marker"></div>
             </div>
             <div class="timeline-item">
-                <img class="flag" src="images/india.png" alt="India">
+                <img class="flag" src="image/card_4.jpg" >
                 <div class="location">Bon Om Thook</div>
                 <div class="date">30/10-1/11</div>
                 <div class="marker"></div>
             </div>
                         <div class="timeline-item">
-                <img class="flag" src="images/serbia.png" alt="Serbia">
+                <img class="flag" src="image/card_3.jpg">
                 <div class="location">Sene Dolta</div>
                 <div class="date">15/10</div>
                 <div class="marker"></div>
             </div>
             <div class="timeline-item">
-                <img class="flag" src="images/peru.png" alt="Peru">
+                <img class="flag" src="image/card_1.jpg">
                 <div class="location">Ok Om Bok</div>
                 <div class="date">15/11</div>
                 <div class="marker"></div>
@@ -698,22 +698,22 @@
             </div>
             <div class="trip-cards">
                 <div class="card">
-                  <img src="image/card_1.jpg" alt="Lễ hội Óc Om Bóc">
+                  <a href="ViewArticle.aspx?id=4"><img src="image/card_1.jpg" ></a>
                   <h4>Óc Om Bóc – Lễ hội cúng trăng</h4>
                 </div>
 
                 <div class="card">
-                  <img src="image/card_2.jpg" alt="Tết Chol Chnam Thmay">
+                  <a href="ViewArticle.aspx?id=3"><img src="image/card_2.jpg" ></a>
                   <h4>Chol Chnam Thmay – Tết cổ truyền Khmer</h4>
                 </div>
 
                 <div class="card">
-                  <img src="image/card_3.jpg" alt="Lễ Sene Dolta">
+                  <a href="ViewArticle.aspx?id=5"><img src="image/card_3.jpg" ></a>
                   <h4>Sene Dolta – Lễ báo hiếu tổ tiên</h4>
                 </div>
 
                 <div class="card">
-                  <img src="image/card_4.jpg" alt="Lễ hội múa Rom Vong">
+                  <a href="ViewArticle.aspx?id=7"><img src="image/card_4.jpg" ></a>
                   <h4>Rom Vong – Vũ điệu đoàn kết</h4>
                 </div>
             </div>
@@ -723,30 +723,27 @@
   <div class="news-left">
     <div class="overlay-content">
       <h2>Tin tức</h2>
-      <a href="#">XEM TẤT CẢ</a>
+      <a href="TinTuc.aspx">XEM TẤT CẢ</a>
     </div>
   </div>
     <div class="news-items">
     <div class="news-item">
-      <img src="image/tin_tuc_1.jpg" alt="">
+         <a href="ViewArticle.aspx?id=4"><img src="image/tin_tuc_1.jpg" ></a>
       <div class="news-date">01/04/2025</div>
       <div class="news-title">Lễ hội Ok Om Bok của người Khmer</div>
       <div class="news-desc">Lễ hội cúng trăng Ok Om Bok là sự kiện văn hóa truyền thống quan trọng diễn ra vào tháng 10 âm lịch, thể hiện lòng biết ơn Mặt Trăng của người Khmer.</div>
-      <div class="read-more">→</div>
     </div>
     <div class="news-item">
-      <img src="image/tin_tuc_2.jpg" alt="">
+         <a href="ViewArticle.aspx?id=3"><img src="image/tin_tuc_2.jpg" ></a>
       <div class="news-date">15/03/2025</div>
       <div class="news-title">Lễ hội Chôl Chnăm Thmây – Tết cổ truyền Khmer</div>
       <div class="news-desc">Chôl Chnăm Thmây đánh dấu năm mới theo lịch cổ truyền Khmer, diễn ra vào tháng 4 hàng năm với nhiều nghi lễ, múa hát và lễ tắm Phật.</div>
-      <div class="read-more">→</div>
     </div>
     <div class="news-item">
-      <img src="image/tin_tuc_3.jpg" alt="">
+         <a href="ViewArticle.aspx?id=5"><img src="image/tin_tuc_3.jpg" ></a>
       <div class="news-date">25/02/2025</div>
       <div class="news-title">Lễ hội Dâng bông dâng y Kathina</div>
       <div class="news-desc">Lễ hội Kathina là dịp người Khmer dâng y và vật phẩm cúng dường lên chư tăng, thể hiện tinh thần hiếu kính và gắn bó cộng đồng.</div>
-      <div class="read-more">→</div>
     </div>
   </div>
 </div>

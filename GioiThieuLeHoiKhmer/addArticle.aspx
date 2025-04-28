@@ -71,6 +71,7 @@
 <body>
     <form id="form1" runat="server">
          <div class="form-container">
+              <a href="ArticlesList.aspx"  color: white; padding: 8px 16px> ←</a>
             <h2>Thêm Bài Viết Mới</h2>
 
             <div class="form-group">

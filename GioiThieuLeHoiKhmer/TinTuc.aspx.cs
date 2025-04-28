@@ -18,7 +18,7 @@ namespace GioiThieuLeHoiKhmer
             string connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             using (SqlConnection conn = new SqlConnection(connStr))
             {
-                string sql = "SELECT ArticleId, Title, Summary, ImagePath FROM Articles ORDER BY CreatedAt DESC";
+                string sql = "SELECT ArticleId, Title, Summary, ImagePath, CreatedAt FROM Articles ORDER BY CreatedAt DESC";
                 SqlDataAdapter da = new SqlDataAdapter(sql, conn);
                 DataTable dt = new DataTable();
                 da.Fill(dt);

@@ -2,6 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
       <style>
+          body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
         /* Featured bài lớn */
         .featured-article {
             width: 100%;
@@ -97,7 +103,8 @@
                 "<div class='featured-article'>" +
                     $"<a href='ViewArticle.aspx?id={Eval("ArticleId")}'><img src='{Eval("ImagePath")}' alt='{Eval("Title")}' /></a>" +
                     $"<h2><a href='ViewArticle.aspx?id={Eval("ArticleId")}' style='text-decoration:none; color:inherit;'>{Eval("Title")}</a></h2>" +
-                    $"<p>{Eval("Summary")}</p>" +
+                    $"<p>{Eval("Summary")}</p>" + 
+                    $"<p>{Eval("CreatedAt")}</p>" + 
                     $"<div class='read-more'><a href='ViewArticle.aspx?id={Eval("ArticleId")}'>Đọc tiếp...</a></div>" +
                 "</div>"
                 : ""
@@ -110,6 +117,8 @@
                     $"<a href='ViewArticle.aspx?id={Eval("ArticleId")}'><img src='{Eval("ImagePath")}' alt='{Eval("Title")}' /></a>" +
                     $"<h4><a href='ViewArticle.aspx?id={Eval("ArticleId")}' style='text-decoration:none; color:inherit;'>{Eval("Title")}</a></h4>" +
                     $"<p>{Eval("Summary")}</p>" +
+                    $"<p>{Eval("CreatedAt")}</p>" + 
+
                 "</div>" +
                 (((Container.DisplayIndex - 1) % 3 == 2 || Container.DisplayIndex == lvArticles.Items.Count - 1) ? "</div>" : "")
             : ""

@@ -63,13 +63,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
-              <div class="title">Quản lý bài viết</div>
+              <div class="title">
+                  <a href="Dashboard.aspx"  color: white; padding: 8px 16px> ←</a>Quản lý bài viết</div>
 
     <a href="AddArticle.aspx" class="button-add">+ Thêm bài viết</a>
 
     <div class="grid">
         <asp:GridView ID="gvArticles" runat="server" AutoGenerateColumns="False" CssClass="gridview" 
-                      OnRowCommand="gvArticles_RowCommand">
+                      OnRowCommand="gvArticles_RowCommand" OnRowDataBound="gvArticles_RowDataBound">
             <Columns>
                 <asp:BoundField DataField="ArticleID" HeaderText="ID" />
                 <asp:BoundField DataField="Title" HeaderText="Tiêu đề" />

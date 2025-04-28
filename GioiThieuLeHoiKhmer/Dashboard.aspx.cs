@@ -15,7 +15,28 @@ namespace GioiThieuLeHoiKhmer
         {
             if (!IsPostBack)
             {
+                CheckPermissions();
                 LoadDashboardData();
+            }
+        }
+
+        private void CheckPermissions()
+        {
+            if (Session["Role"] != null && Session["Username"] != null)
+            {
+                string role = Session["Role"].ToString();
+                string username = Session["Username"].ToString();
+
+                lblUserInfo.Text = username + " (" + role + ")";
+
+                if (role == "Editor")
+                {
+                    cardUsers.Visible = false;
+                }
+            }
+            else
+            {
+                Response.Redirect("Login.aspx");
             }
         }
 
@@ -42,6 +63,16 @@ namespace GioiThieuLeHoiKhmer
         protected void btnViewArticles_Click(object sender, EventArgs e)
         {
             Response.Redirect("ArticlesList.aspx");
+        }
+        protected void btnViewUsers_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("UserList.aspx");
+        }
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+            Response.Redirect("Login.aspx");
         }
 
     }

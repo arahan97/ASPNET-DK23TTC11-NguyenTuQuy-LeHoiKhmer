@@ -68,10 +68,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="addArticle.aspx" />
+    <Content Include="addUser.aspx" />
     <Content Include="ArticlesList.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="EditArticle.aspx" />
+    <Content Include="EditUser.aspx" />
     <Content Include="GioiThieu.aspx" />
     <Content Include="image\banner_1.jpg" />
     <Content Include="image\banner_2.jpg" />
@@ -81,6 +83,7 @@
     <Content Include="image\card_3.jpg" />
     <Content Include="image\card_4.jpg" />
     <Content Include="image\giatri.jpg" />
+    <Content Include="image\icon_user.png" />
     <Content Include="image\logo.png" />
     <Content Include="image\slide_1.jpg" />
     <Content Include="image\slide_2.jpg" />
@@ -94,6 +97,7 @@
     <Content Include="LienHe.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="TinTuc.aspx" />
+    <Content Include="UserList.aspx" />
     <Content Include="ViewArticle.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -104,6 +108,13 @@
     </Compile>
     <Compile Include="addArticle.aspx.designer.cs">
       <DependentUpon>addArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="addUser.aspx.cs">
+      <DependentUpon>addUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="addUser.aspx.designer.cs">
+      <DependentUpon>addUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="ArticlesList.aspx.cs">
       <DependentUpon>ArticlesList.aspx</DependentUpon>
@@ -132,6 +143,13 @@
     </Compile>
     <Compile Include="EditArticle.aspx.designer.cs">
       <DependentUpon>EditArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
     </Compile>
     <Compile Include="Gdien.Master.cs">
       <DependentUpon>Gdien.Master</DependentUpon>
@@ -203,6 +221,13 @@
     </Compile>
     <Compile Include="TinTuc.Master.designer.cs">
       <DependentUpon>TinTuc.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewArticle.aspx.cs">
       <DependentUpon>ViewArticle.aspx</DependentUpon>
