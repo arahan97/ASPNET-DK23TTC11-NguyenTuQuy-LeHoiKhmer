@@ -3,108 +3,80 @@
   "WorkspaceRootPath": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\edituser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:edituser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\admin\\articleslist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:admin\\articleslist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\adduser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:adduser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\admin\\articleslist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:admin\\articleslist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\adduser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:adduser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\admin\\editarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:admin\\editarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\userlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:userlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:userlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\edituser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:edituser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:addarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\editarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:editarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\articleslist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:articleslist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\viewarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:viewarticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\gdien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gdien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|c:\\arahan\\h\u1ECDc\\\u0111\u1EA1i h\u1ECDc\\asp\\do_an_tot_nghiep_asp\\gioithieulehoikhmer\\gioithieu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gioithieu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\gioithieu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gioithieu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\admin\\addarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:admin\\addarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\viewarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:viewarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\lienhe.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:lienhe.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\lehoi.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:lehoi.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\lehoi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:lehoi.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\gdien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gdien.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Page\\Default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\gioithieu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gioithieu.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\gdien.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:gdien.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserList.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EditUser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EditUser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\articleslist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:articleslist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\lienhe.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:lienhe.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\tintuc.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,16 +91,56 @@
       "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:tintuc.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\editarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:editarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:addUser.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArticlesList.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484C1DEE-963E-436F-803D-590FE51A7257}|GioiThieuLeHoiKhmer.csproj|solutionrelative:addarticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:addArticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:addUser.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EditArticle.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ArticlesList.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EditArticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:addArticle.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Page\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,167 +150,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditUser.aspx.cs",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx.cs",
-              "RelativeDocumentMoniker": "EditUser.aspx.cs",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx.cs",
-              "RelativeToolTip": "EditUser.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:36:25.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditUser.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx",
-              "RelativeDocumentMoniker": "EditUser.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx",
-              "RelativeToolTip": "EditUser.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-28T05:36:20.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserList.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx",
-              "RelativeDocumentMoniker": "UserList.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx",
-              "RelativeToolTip": "UserList.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-28T03:44:07.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserList.aspx.cs",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx.cs",
-              "RelativeDocumentMoniker": "UserList.aspx.cs",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx.cs",
-              "RelativeToolTip": "UserList.aspx.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDwAAAAJAAAAAAAAAA==",
+              "Title": "ArticlesList.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\ArticlesList.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\ArticlesList.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\ArticlesList.aspx.cs",
+              "RelativeToolTip": "Admin\\ArticlesList.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:45:00.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Gdien.Master",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master",
-              "RelativeDocumentMoniker": "Gdien.Master",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master",
-              "RelativeToolTip": "Gdien.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T11:18:14.676Z",
+              "WhenOpened": "2025-05-04T13:58:24.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "addUser.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx",
-              "RelativeDocumentMoniker": "addUser.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx",
-              "RelativeToolTip": "addUser.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-28T05:13:20.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "ArticlesList.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx",
-              "RelativeDocumentMoniker": "ArticlesList.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx",
-              "RelativeToolTip": "ArticlesList.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\ArticlesList.aspx",
+              "RelativeDocumentMoniker": "Admin\\ArticlesList.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\ArticlesList.aspx",
+              "RelativeToolTip": "Admin\\ArticlesList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-26T15:28:27.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "addArticle.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx",
-              "RelativeDocumentMoniker": "addArticle.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx",
-              "RelativeToolTip": "addArticle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-26T10:53:58.419Z",
+              "WhenOpened": "2025-05-04T13:58:14.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "addUser.aspx.cs",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx.cs",
-              "RelativeDocumentMoniker": "addUser.aspx.cs",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx.cs",
-              "RelativeToolTip": "addUser.aspx.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Title": "EditArticle.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\EditArticle.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\EditArticle.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\EditArticle.aspx.cs",
+              "RelativeToolTip": "Admin\\EditArticle.aspx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T05:14:32.188Z",
+              "WhenOpened": "2025-05-04T07:46:42.909Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "addArticle.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\addArticle.aspx.cs",
+              "RelativeDocumentMoniker": "Admin\\addArticle.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Admin\\addArticle.aspx.cs",
+              "RelativeToolTip": "Admin\\addArticle.aspx.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:41:58.928Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ViewArticle.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx",
-              "RelativeDocumentMoniker": "ViewArticle.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx",
-              "RelativeToolTip": "ViewArticle.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-26T11:31:04.709Z",
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-04T04:56:33.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EditArticle.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx",
-              "RelativeDocumentMoniker": "EditArticle.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx",
-              "RelativeToolTip": "EditArticle.aspx",
+              "DocumentIndex": 8,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Default.aspx",
+              "RelativeDocumentMoniker": "Default.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Default.aspx",
+              "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-26T11:15:42.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T04:20:40.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "GioiThieu.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.aspx",
-              "RelativeDocumentMoniker": "GioiThieu.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.aspx",
-              "RelativeToolTip": "GioiThieu.aspx",
+              "DocumentIndex": 11,
+              "Title": "GioiThieu.Master",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.Master",
+              "RelativeDocumentMoniker": "GioiThieu.Master",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.Master",
+              "RelativeToolTip": "GioiThieu.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T07:11:37.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T13:53:41.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 6,
               "Title": "LeHoi.Master",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LeHoi.Master",
               "RelativeDocumentMoniker": "LeHoi.Master",
@@ -310,7 +254,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
+              "Title": "Gdien.Master.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master.cs",
+              "RelativeDocumentMoniker": "Gdien.Master.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master.cs",
+              "RelativeToolTip": "Gdien.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T08:59:08.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx",
+              "RelativeDocumentMoniker": "Page\\Default.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx",
+              "RelativeToolTip": "Page\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-30T08:59:39.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Gdien.Master",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master",
+              "RelativeDocumentMoniker": "Gdien.Master",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Gdien.Master",
+              "RelativeToolTip": "Gdien.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-27T11:18:14.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TinTuc.Master",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.Master",
               "RelativeDocumentMoniker": "TinTuc.Master",
@@ -322,7 +302,134 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
+              "Title": "ViewArticle.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx.cs",
+              "RelativeDocumentMoniker": "ViewArticle.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx.cs",
+              "RelativeToolTip": "ViewArticle.aspx.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvyMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T15:41:26.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Page\\Default.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Page\\Default.aspx.cs",
+              "RelativeToolTip": "Page\\Default.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T14:01:57.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserList.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx.cs",
+              "RelativeDocumentMoniker": "UserList.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx.cs",
+              "RelativeToolTip": "UserList.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T03:45:00.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserList.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx",
+              "RelativeDocumentMoniker": "UserList.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\UserList.aspx",
+              "RelativeToolTip": "UserList.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-28T03:44:07.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EditUser.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx",
+              "RelativeDocumentMoniker": "EditUser.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx",
+              "RelativeToolTip": "EditUser.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-28T05:36:20.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditUser.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx.cs",
+              "RelativeDocumentMoniker": "EditUser.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditUser.aspx.cs",
+              "RelativeToolTip": "EditUser.aspx.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:36:25.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "addUser.aspx.cs",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx.cs",
+              "RelativeDocumentMoniker": "addUser.aspx.cs",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx.cs",
+              "RelativeToolTip": "addUser.aspx.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:14:32.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "addArticle.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx",
+              "RelativeDocumentMoniker": "addArticle.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx",
+              "RelativeToolTip": "addArticle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-26T10:53:58.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ArticlesList.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx",
+              "RelativeDocumentMoniker": "ArticlesList.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx",
+              "RelativeToolTip": "ArticlesList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-26T15:28:27.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "addUser.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx",
+              "RelativeDocumentMoniker": "addUser.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addUser.aspx",
+              "RelativeToolTip": "addUser.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-28T05:13:20.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditArticle.aspx",
+              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx",
+              "RelativeDocumentMoniker": "EditArticle.aspx",
+              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx",
+              "RelativeToolTip": "EditArticle.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-26T11:15:42.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Dashboard.aspx",
               "RelativeDocumentMoniker": "Dashboard.aspx",
@@ -330,12 +437,11 @@
               "RelativeToolTip": "Dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-28T03:38:19.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T03:38:19.026Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "Dashboard.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Dashboard.aspx.cs",
               "RelativeDocumentMoniker": "Dashboard.aspx.cs",
@@ -343,12 +449,11 @@
               "RelativeToolTip": "Dashboard.aspx.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAgwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T03:40:01.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T03:40:01.521Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TinTuc.Master.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.Master.cs",
               "RelativeDocumentMoniker": "TinTuc.Master.cs",
@@ -360,68 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TinTuc.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.aspx",
-              "RelativeDocumentMoniker": "TinTuc.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.aspx",
-              "RelativeToolTip": "TinTuc.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T06:26:44.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LeHoi.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LeHoi.aspx",
-              "RelativeDocumentMoniker": "LeHoi.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LeHoi.aspx",
-              "RelativeToolTip": "LeHoi.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-24T14:13:08.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LienHe.Master",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LienHe.Master",
-              "RelativeDocumentMoniker": "LienHe.Master",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LienHe.Master",
-              "RelativeToolTip": "LienHe.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-24T14:12:34.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GioiThieu.Master",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.Master",
-              "RelativeDocumentMoniker": "GioiThieu.Master",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.Master",
-              "RelativeToolTip": "GioiThieu.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-24T13:53:41.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ViewArticle.aspx.cs",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx.cs",
-              "RelativeDocumentMoniker": "ViewArticle.aspx.cs",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ViewArticle.aspx.cs",
-              "RelativeToolTip": "ViewArticle.aspx.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T15:41:26.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "ArticlesList.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\ArticlesList.aspx.cs",
               "RelativeDocumentMoniker": "ArticlesList.aspx.cs",
@@ -433,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 18,
               "Title": "TinTuc.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.aspx.cs",
               "RelativeDocumentMoniker": "TinTuc.aspx.cs",
@@ -445,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 19,
               "Title": "TinTuc.Master.designer.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.Master.designer.cs",
               "RelativeDocumentMoniker": "TinTuc.Master.designer.cs",
@@ -457,19 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LienHe.aspx",
-              "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LienHe.aspx",
-              "RelativeDocumentMoniker": "LienHe.aspx",
-              "ToolTip": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\LienHe.aspx",
-              "RelativeToolTip": "LienHe.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-27T07:31:12.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Login.aspx",
               "RelativeDocumentMoniker": "Login.aspx",
@@ -481,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 20,
               "Title": "GioiThieu.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\GioiThieu.aspx.cs",
               "RelativeDocumentMoniker": "GioiThieu.aspx.cs",
@@ -493,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 21,
               "Title": "TinTuc.aspx.designer.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\TinTuc.aspx.designer.cs",
               "RelativeDocumentMoniker": "TinTuc.aspx.designer.cs",
@@ -505,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "EditArticle.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\EditArticle.aspx.cs",
               "RelativeDocumentMoniker": "EditArticle.aspx.cs",
@@ -517,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Login.aspx.cs",
@@ -529,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "addArticle.aspx.cs",
               "DocumentMoniker": "C:\\Arahan\\H\u1ECDc\\\u0110\u1EA1i h\u1ECDc\\ASP\\Do_An_Tot_Nghiep_ASP\\GioiThieuLeHoiKhmer\\addArticle.aspx.cs",
               "RelativeDocumentMoniker": "addArticle.aspx.cs",

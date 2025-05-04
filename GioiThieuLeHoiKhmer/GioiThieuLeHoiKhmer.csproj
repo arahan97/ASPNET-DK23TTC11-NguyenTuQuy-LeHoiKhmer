@@ -94,7 +94,6 @@
     <Content Include="image\tin_tuc_2.jpg" />
     <Content Include="image\tin_tuc_3.jpg" />
     <Content Include="LeHoi.aspx" />
-    <Content Include="LienHe.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="TinTuc.aspx" />
     <Content Include="Admin\UserList.aspx" />
@@ -179,20 +178,6 @@
     <Compile Include="LeHoi.Master.designer.cs">
       <DependentUpon>LeHoi.Master</DependentUpon>
     </Compile>
-    <Compile Include="LienHe.aspx.cs">
-      <DependentUpon>LienHe.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LienHe.aspx.designer.cs">
-      <DependentUpon>LienHe.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LienHe.Master.cs">
-      <DependentUpon>LienHe.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LienHe.Master.designer.cs">
-      <DependentUpon>LienHe.Master</DependentUpon>
-    </Compile>
     <Compile Include="Admin\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -240,7 +225,6 @@
   <ItemGroup>
     <Content Include="Gdien.Master" />
     <Content Include="LeHoi.Master" />
-    <Content Include="LienHe.Master" />
     <None Include="packages.config" />
     <Content Include="GioiThieu.Master" />
     <Content Include="TinTuc.Master" />
@@ -252,6 +236,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Page\" />
     <Folder Include="Uploads\" />
   </ItemGroup>
   <PropertyGroup>

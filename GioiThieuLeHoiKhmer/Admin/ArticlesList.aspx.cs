@@ -36,15 +36,11 @@ namespace GioiThieuLeHoiKhmer.Admin
         }
         protected void gvArticles_RowDataBound(object sender, GridViewRowEventArgs e)
         {
-            // Chỉ xử lý DataRow (không phải Header/Footer)
             if (e.Row.RowType != DataControlRowType.DataRow) return;
 
-            // Lấy text gốc từ cell thứ 3 (0-based)
             string fullText = e.Row.Cells[3].Text;
 
-            // Nếu bạn dùng TemplateField chứa Label, thay:
-            // var lbl = (Label)e.Row.FindControl("lblContent");
-            // string fullText = lbl.Text;
+
 
             int maxLen = 100; // số ký tự tối đa
             if (fullText.Length > maxLen)
@@ -52,8 +48,7 @@ namespace GioiThieuLeHoiKhmer.Admin
                 string truncated = fullText.Substring(0, maxLen) + "...";
                 e.Row.Cells[3].Text = truncated;
 
-                // nếu dùng Label trong TemplateField thì:
-                // lbl.Text = truncated;
+
             }
         }
         protected void gvArticles_RowCommand(object sender, System.Web.UI.WebControls.GridViewCommandEventArgs e)

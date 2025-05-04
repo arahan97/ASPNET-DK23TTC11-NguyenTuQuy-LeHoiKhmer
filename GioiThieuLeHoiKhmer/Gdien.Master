@@ -5,13 +5,12 @@
 <html>
 <head runat="server">
     <title>Trang chủ</title>
-  
-    
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <style>
-    
         .hero {
             position: relative;
             background-image: url('image/banner_1.jpg');
@@ -24,6 +23,7 @@
             align-items: center;
             text-align: center;
         }
+
         .navbar {
             position: absolute;
             top: 0;
@@ -34,27 +34,33 @@
             padding: 1rem 2rem;
             background-color: rgba(0, 0, 0, 0.3);
         }
+
         .nav-links {
             list-style: none;
             display: flex;
             gap: 1.5rem;
         }
-        .nav-links li a {
-            color: white;
-            text-decoration: none;
-        }
+
+            .nav-links li a {
+                color: white;
+                text-decoration: none;
+            }
+
         .social-icons a img {
             width: 30px;
             margin-left: 10px;
         }
+
         .hero-content h2 {
             font-size: 2rem;
             margin: 0;
         }
+
         .hero-content h1 {
             font-size: 3rem;
             margin: 0.5rem 0;
         }
+
         .btn {
             padding: 0.75rem 1.5rem;
             background-color: white;
@@ -64,16 +70,19 @@
             margin-top: 1rem;
             font-weight: bold;
         }
-         * {
+
+        * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
         }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
         }
+
         .slider-container {
             overflow: hidden;
             width: 100%;
@@ -81,14 +90,17 @@
             margin: auto;
             position: relative;
         }
+
         .slider {
             display: flex;
             transition: transform 0.5s ease-in-out;
         }
+
         .slide {
             display: flex;
             min-width: 100%;
         }
+
         .slide-content {
             width: 50%;
             padding: 40px;
@@ -99,40 +111,48 @@
             align-items: center;
             text-align: center;
         }
-        .slide-content h3 {
-            font-style: italic;
-            font-size: 1.2rem;
-            margin-bottom: 10px;
-        }
-        .slide-content h2 {
-            font-size: 1.8rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-        }
-        .slide-content p {
-            max-width: 400px;
-            margin-bottom: 20px;
-            color: #555;
-        }
-        .slide-content a {
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-        .slide-content .icons a {
-            margin: 0 8px;
-        }
+
+            .slide-content h3 {
+                font-style: italic;
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+
+            .slide-content h2 {
+                font-size: 1.8rem;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            .slide-content p {
+                max-width: 400px;
+                margin-bottom: 20px;
+                color: #555;
+            }
+
+            .slide-content a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+
+            .slide-content .icons a {
+                margin: 0 8px;
+            }
+
         .slide-image {
             width: 50%;
             height: 100%;
         }
-        .slide-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+
+            .slide-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
         .arrow {
             position: absolute;
             top: 50%;
@@ -144,27 +164,36 @@
             z-index: 10;
             border: 1px solid #ccc;
         }
-        .arrow.left { left: 10px; }
-        .arrow.right { right: 10px; }
 
-        
+            .arrow.left {
+                left: 10px;
+            }
+
+            .arrow.right {
+                right: 10px;
+            }
+
+
         .timeline-section {
             text-align: center;
             padding: 60px 20px;
             background: #fff;
         }
-        .timeline-section h2 {
-            font-size: 2.2rem;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-        }
-        .timeline-section p {
-            max-width: 600px;
-            margin: auto;
-            color: #777;
-            margin-bottom: 60px;
-        }
+
+            .timeline-section h2 {
+                font-size: 2.2rem;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            .timeline-section p {
+                max-width: 600px;
+                margin: auto;
+                color: #777;
+                margin-bottom: 60px;
+            }
+
         .timeline {
             display: flex;
             justify-content: space-between;
@@ -173,17 +202,19 @@
             flex-wrap: wrap;
             gap: 40px;
         }
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 50%;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: transparent;
-            border-top: 2px dashed #ccc;
-            z-index: 0;
-        }
+
+            .timeline::before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: transparent;
+                border-top: 2px dashed #ccc;
+                z-index: 0;
+            }
+
         .timeline-item {
             text-align: center;
             position: relative;
@@ -191,344 +222,368 @@
             flex: 1;
             min-width: 180px;
         }
-        .timeline-item img.flag {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: 4px solid white;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-        .timeline-item .location {
-            margin-top: 15px;
-            font-weight: bold;
-            letter-spacing: 1px;
-        }
-        .timeline-item .date {
-            font-size: 0.8rem;
-            color: #999;
-        }
-        .timeline-item .marker {
-            margin: 10px auto;
-            width: 20px;
-            height: 20px;
-            background: white;
-            border: 2px solid black;
-            border-radius: 50%;
-            position: relative;
-        }
-        .timeline-item .marker::before {
-            content: '';
-            position: absolute;
-            top: -8px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 12px;
-            height: 12px;
-            border: 2px solid black;
-            border-radius: 50%;
-            background: white;
-        }
+
+            .timeline-item img.flag {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                border: 4px solid white;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            }
+
+            .timeline-item .location {
+                margin-top: 15px;
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+
+            .timeline-item .date {
+                font-size: 0.8rem;
+                color: #999;
+            }
+
+            .timeline-item .marker {
+                margin: 10px auto;
+                width: 20px;
+                height: 20px;
+                background: white;
+                border: 2px solid black;
+                border-radius: 50%;
+                position: relative;
+            }
+
+                .timeline-item .marker::before {
+                    content: '';
+                    position: absolute;
+                    top: -8px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 12px;
+                    height: 12px;
+                    border: 2px solid black;
+                    border-radius: 50%;
+                    background: white;
+                }
+
         @media (max-width: 768px) {
             .timeline {
                 flex-direction: column;
                 align-items: center;
             }
         }
+
         .day-trips {
-    padding: 60px 20px;
-}
-.container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-}
-.text-content {
-    flex: 1 1 35%;
-}
-.text-content h2 {
-    font-size: 32px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    margin-bottom: 10px;
-}
-.text-content h2 span {
-    display: block;
-    font-size: 36px;
-    font-weight: bold;
-    color: #000;
-}
-.text-content .intro {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #888;
-}
-.text-content .desc {
-    font-size: 16px;
-    line-height: 1.8;
-}
-.text-content .desc .highlight {
-    color: #ec5f82;
-}
-.text-content .desc a {
-    color: #777;
-    text-decoration: underline;
-}
-.social-icons {
-    margin-top: 20px;
-}
-.social-icons a {
-    display: inline-block;
-    margin-right: 15px;
-}
+            padding: 60px 20px;
+        }
 
-.trip-cards {
-    flex: 1 1 60%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-}
-.card {
-    display: flex;
-    flex-direction: column;
-}
-.card img {
-    width: 100%;
-    height: 274px;
-    border-radius: 4px;
-}
-.card h3 {
-    margin-top: 10px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #222;
-}
-.card p {
-    font-size: 12px;
-    color: #999;
-    text-transform: uppercase;
-    margin-top: 5px;
-}
- .news-section {
-      display: flex;
-      max-width: 1250px;
-      margin: 50px auto;
-      gap: 30px;
-    }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
 
-    .news-left {
-      flex: 1;
-      background: url('image/banner_tin_tuc.jpg') center/cover no-repeat;
-      position: relative;
-      display: flex;
-      align-items: flex-end;
-      min-height: 600px;
-    }
+        .text-content {
+            flex: 1 1 35%;
+        }
 
-    .news-left::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.3);
-    }
+            .text-content h2 {
+                font-size: 32px;
+                letter-spacing: 2px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
 
-    .news-left .overlay-content {
-      position: relative;
-      padding: 40px;
-      color: white;
-    }
+                .text-content h2 span {
+                    display: block;
+                    font-size: 36px;
+                    font-weight: bold;
+                    color: #000;
+                }
 
-    .news-left h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 36px;
-      margin: 0 0 10px;
-    }
+            .text-content .intro {
+                font-size: 16px;
+                margin-bottom: 20px;
+                color: #888;
+            }
 
-    .news-left a {
-      display: inline-block;
-      margin-top: 20px;
-      font-weight: bold;
-      color: white;
-      text-decoration: none;
-      border-bottom: 2px solid #f6b000;
-    }
+            .text-content .desc {
+                font-size: 16px;
+                line-height: 1.8;
+            }
 
-    .news-items {
-      flex: 2;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 30px;
-    }
+                .text-content .desc .highlight {
+                    color: #ec5f82;
+                }
 
-    .news-item img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-    }
+                .text-content .desc a {
+                    color: #777;
+                    text-decoration: underline;
+                }
 
-    .news-item {
-      display: flex;
-      flex-direction: column;
-    }
+        .social-icons {
+            margin-top: 20px;
+        }
 
-    .news-date {
-      font-weight: bold;
-      color: #c58c00;
-      font-size: 14px;
-      margin-top: 15px;
-    }
+            .social-icons a {
+                display: inline-block;
+                margin-right: 15px;
+            }
 
-    .news-title {
-      font-family: 'Playfair Display', serif;
-      font-weight: bold;
-      font-size: 17px;
-      margin: 8px 0;
-      text-transform: uppercase;
-    }
+        .trip-cards {
+            flex: 1 1 60%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
 
-    .news-desc {
-      font-size: 15px;
-      line-height: 1.6;
-    }
+        .card {
+            display: flex;
+            flex-direction: column;
+        }
 
-    .read-more {
-      margin-top: auto;
-      text-align: right;
-      font-size: 22px;
-      color: #001f6e;
-      font-weight: bold;
-    }
-    .logo {
-      display: flex;
-      align-items: center;
-    }
+            .card img {
+                width: 100%;
+                height: 274px;
+                border-radius: 4px;
+            }
 
-    .logo img {
-      height: 70px;
-    }
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-    }
+            .card h3 {
+                margin-top: 10px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                text-transform: uppercase;
+                color: #222;
+            }
 
-    footer {
-      background-color: #333;
-      color: #ccc;
-      padding: 50px 40px 20px;
-    }
+            .card p {
+                font-size: 12px;
+                color: #999;
+                text-transform: uppercase;
+                margin-top: 5px;
+            }
 
-    .footer-container {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+        .news-section {
+            display: flex;
+            max-width: 1250px;
+            margin: 50px auto;
+            gap: 30px;
+        }
 
-    .footer-column {
-      flex: 1;
-      min-width: 220px;
-      margin-bottom: 30px;
-    }
+        .news-left {
+            flex: 1;
+            background: url('image/banner_tin_tuc.jpg') center/cover no-repeat;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+            min-height: 600px;
+        }
 
-    .footer-logo {
-      font-size: 24px;
-      font-weight: bold;
-      color: #fff;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
+            .news-left::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.3);
+            }
 
-    .footer-logo i {
-      font-size: 28px;
-      color: #fff;
-    }
+            .news-left .overlay-content {
+                position: relative;
+                padding: 40px;
+                color: white;
+            }
 
-    .social-icons {
-      display: flex;
-      gap: 15px;
-      margin-top: 10px;
-    }
+            .news-left h2 {
+                font-family: 'Playfair Display', serif;
+                font-size: 36px;
+                margin: 0 0 10px;
+            }
 
-    .social-icons a {
-      background: #777;
-      color: white;
-      border-radius: 50%;
-      padding: 10px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-      font-size: 14px;
-      transition: background 0.3s;
-    }
+            .news-left a {
+                display: inline-block;
+                margin-top: 20px;
+                font-weight: bold;
+                color: white;
+                text-decoration: none;
+                border-bottom: 2px solid #f6b000;
+            }
 
-    .social-icons a:hover {
-      background: #777;
-    }
+        .news-items {
+            flex: 2;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
 
-    .footer-column h4 {
-      color: white;
-      text-transform: uppercase;
-      font-size: 14px;
-      margin-bottom: 15px;
-      letter-spacing: 1px;
-    }
+        .news-item img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
 
-    .footer-column p,
-    .footer-column a {
-      color: #bbb;
-      font-size: 14px;
-      margin: 5px 0;
-      text-decoration: none;
-    }
+        .news-item {
+            display: flex;
+            flex-direction: column;
+        }
 
-    .subscribe-input {
-      display: flex;
-      align-items: center;
-      background: #666;
-      padding: 10px;
-      border-radius: 6px;
-      max-width: 300px;
-    }
+        .news-date {
+            font-weight: bold;
+            color: #c58c00;
+            font-size: 14px;
+            margin-top: 15px;
+        }
 
-    .subscribe-input input {
-      border: none;
-      outline: none;
-      background: transparent;
-      color: white;
-      font-size: 14px;
-      flex: 1;
-    }
+        .news-title {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 17px;
+            margin: 8px 0;
+            text-transform: uppercase;
+        }
 
-    .subscribe-input i {
-      color: #78bbe6;
-    }
+        .news-desc {
+            font-size: 15px;
+            line-height: 1.6;
+        }
 
-    .footer-bottom {
-      text-align: center;
-      margin-top: 20px;
-      border-top: 1px solid #444;
-      padding-top: 10px;
-      font-size: 13px;
-      color: #888;
-    }
+        .read-more {
+            margin-top: auto;
+            text-align: right;
+            font-size: 22px;
+            color: #001f6e;
+            font-weight: bold;
+        }
 
-/* Responsive */
-@media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-    }
-    .trip-cards {
-        grid-template-columns: 1fr;
-    }
-}
+        .logo {
+            display: flex;
+            align-items: center;
+        }
 
+            .logo img {
+                height: 70px;
+            }
+
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        footer {
+            background-color: #333;
+            color: #ccc;
+            padding: 50px 40px 20px;
+        }
+
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 220px;
+            margin-bottom: 30px;
+        }
+
+        .footer-logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+            .footer-logo i {
+                font-size: 28px;
+                color: #fff;
+            }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+            .social-icons a {
+                background: #777;
+                color: white;
+                border-radius: 50%;
+                padding: 10px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 14px;
+                transition: background 0.3s;
+            }
+
+                .social-icons a:hover {
+                    background: #777;
+                }
+
+        .footer-column h4 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .footer-column p,
+        .footer-column a {
+            color: #bbb;
+            font-size: 14px;
+            margin: 5px 0;
+            text-decoration: none;
+        }
+
+        .subscribe-input {
+            display: flex;
+            align-items: center;
+            background: #666;
+            padding: 10px;
+            border-radius: 6px;
+            max-width: 300px;
+        }
+
+            .subscribe-input input {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: white;
+                font-size: 14px;
+                flex: 1;
+            }
+
+            .subscribe-input i {
+                color: #78bbe6;
+            }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 10px;
+            font-size: 13px;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .trip-cards {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 
 
@@ -536,26 +591,25 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    
-   <header class="hero">
+
+    <header class="hero">
         <nav class="navbar">
             <div class="logo">
-                    <img src="image/logo.png" alt="Logo">
+                <img src="image/logo.png" alt="Logo">
             </div>
             <ul class="nav-links">
                 <li><a href="Default.aspx">Trang chủ</a></li>
                 <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
                 <li><a href="Lehoi.aspx">Lễ hội</a></li>
                 <li><a href="TinTuc.aspx">Tin tức</a></li>
-                <li><a href="LienHe.aspx">Liên hệ</a></li>
             </ul>
-           
+
             <div class="social-icons">
-    <a href="Admin/login.aspx">Đăng nhập</a>
-</div>
-        
+                <a href="Admin/login.aspx">Đăng nhập</a>
+            </div>
+
         </nav>
-        
+
         <div class="hero-content">
             <h2>Ok Om Bok</h2>
             <h1>Lễ Hội cúng Trăng</h1>
@@ -564,7 +618,7 @@
     </header>
     <br />
 
-     <div class="slider-container">
+    <div class="slider-container">
         <div class="slider" id="slider">
             <div class="slide">
                 <div class="slide-content">
@@ -583,7 +637,7 @@
                     <h2>Bản sắc văn hóa của người Khmer</h2>
                     <p>Văn hóa, tín ngưỡng của người Khmer...</p>
                     <a href="ViewArticle.aspx?id=8">Đọc thêm...</a>
-                    
+
                 </div>
                 <div class="slide-image">
                     <img src="image/slide_2.jpg" alt="Slide 2">
@@ -595,7 +649,7 @@
                     <h2>Những trang phục truyền thống của người Khmer</h2>
                     <p>Trang phục truyền thống của người Khmer rất đa dạng...</p>
                     <a href="ViewArticle.aspx?id=9">Đọc thêm...</a>
-                
+
                 </div>
                 <div class="slide-image">
                     <img src="image/slide_3.jpg" alt="Slide 3">
@@ -608,29 +662,29 @@
 
     <script>
         let currentSlide = 0;
-        const slider = document.getElementById('slider');
-        const slides = document.querySelectorAll('.slide');
+                const slider = document.getElementById('slider');
+                const slides = document.querySelectorAll('.slide');
 
-        function showSlide(index) {
-            if (index >= slides.length) currentSlide = 0;
-            else if (index < 0) currentSlide = slides.length - 1;
-            else currentSlide = index;
+                function showSlide(index) {
+                    if (index >= slides.length) currentSlide = 0;
+                    else if (index < 0) currentSlide = slides.length - 1;
+                    else currentSlide = index;
 
-            slider.style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
+                    slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                }
 
-        function nextSlide() {
-            showSlide(currentSlide + 1);
-        }
+                function nextSlide() {
+                    showSlide(currentSlide + 1);
+                }
 
-        function prevSlide() {
-            showSlide(currentSlide - 1);
-        }
+                function prevSlide() {
+                    showSlide(currentSlide - 1);
+                }
 
-        document.querySelector('.arrow.left').addEventListener('click', prevSlide);
-        document.querySelector('.arrow.right').addEventListener('click', nextSlide);
+                document.querySelector('.arrow.left').addEventListener('click', prevSlide);
+                document.querySelector('.arrow.right').addEventListener('click', nextSlide);
 
-        setInterval(nextSlide, 5000);
+                setInterval(nextSlide, 5000);
     </script>
     <br />
 
@@ -639,24 +693,24 @@
         <p>Những lễ hội lớn của người Khmer được tổ chức trong năm rất đa dạng và phong phú</p>
         <div class="timeline">
             <div class="timeline-item">
-                <img class="flag" src="image/tin_tuc_3.jpg" >
+                <img class="flag" src="image/tin_tuc_3.jpg">
                 <div class="location">Chol Chnam Thmay</div>
                 <div class="date">14/4-17/4</div>
                 <div class="marker"></div>
             </div>
             <div class="timeline-item">
-                <img class="flag" src="image/card_2.jpg" >
+                <img class="flag" src="image/card_2.jpg">
                 <div class="location">Đua bò Bảy Núi</div>
                 <div class="date">29/9</div>
                 <div class="marker"></div>
             </div>
             <div class="timeline-item">
-                <img class="flag" src="image/card_4.jpg" >
+                <img class="flag" src="image/card_4.jpg">
                 <div class="location">Bon Om Thook</div>
                 <div class="date">30/10-1/11</div>
                 <div class="marker"></div>
             </div>
-                        <div class="timeline-item">
+            <div class="timeline-item">
                 <img class="flag" src="image/card_3.jpg">
                 <div class="location">Sene Dolta</div>
                 <div class="date">15/10</div>
@@ -668,7 +722,7 @@
                 <div class="date">15/11</div>
                 <div class="marker"></div>
             </div>
-            
+
         </div>
     </section>
     <br />
@@ -676,70 +730,78 @@
     <section class="day-trips">
         <div class="container">
             <div class="text-content">
-                <h2><span>TOP 4 LỄ HỘI<br>CỦA NGƯỜI KHMER</span></h2>
+                <h2><span>TOP 4 LỄ HỘI<br>
+                    CỦA NGƯỜI KHMER</span></h2>
                 <p class="intro">Chúng tôi là Nhà thám hiểm văn hóa Khmer, ở đây để chia sẻ với bạn những lễ hội sôi động và linh thiêng nhất của người Khmer.</p>
                 <p class="desc">
-                   <p>
+                    <p>
                         Lễ hội là một phần không thể thiếu trong đời sống văn hóa tinh thần của người Khmer.
                        Mỗi lễ hội là một dịp để cộng đồng sum vầy, cầu nguyện, tưởng nhớ tổ tiên và tôn vinh nét đẹp truyền thống lâu đời.
                     </p>
 
                     <p>
-                    Dưới đây là 4 lễ hội Khmer tiêu biểu mà bạn không nên bỏ lỡ nếu muốn hiểu sâu về văn hóa miền Tây Nam Bộ Việt Nam.
+                        Dưới đây là 4 lễ hội Khmer tiêu biểu mà bạn không nên bỏ lỡ nếu muốn hiểu sâu về văn hóa miền Tây Nam Bộ Việt Nam.
                     </p>
                 </p>
             </div>
             <div class="trip-cards">
                 <div class="card">
-                  <a href="ViewArticle.aspx?id=4"><img src="image/card_1.jpg" ></a>
-                  <h4>Óc Om Bóc – Lễ hội cúng trăng</h4>
+                    <a href="ViewArticle.aspx?id=4">
+                        <img src="image/card_1.jpg"></a>
+                    <h4>Óc Om Bóc – Lễ hội cúng trăng</h4>
                 </div>
 
                 <div class="card">
-                  <a href="ViewArticle.aspx?id=3"><img src="image/card_2.jpg" ></a>
-                  <h4>Chol Chnam Thmay – Tết cổ truyền Khmer</h4>
+                    <a href="ViewArticle.aspx?id=3">
+                        <img src="image/card_2.jpg"></a>
+                    <h4>Chol Chnam Thmay – Tết cổ truyền Khmer</h4>
                 </div>
 
                 <div class="card">
-                  <a href="ViewArticle.aspx?id=5"><img src="image/card_3.jpg" ></a>
-                  <h4>Sene Dolta – Lễ báo hiếu tổ tiên</h4>
+                    <a href="ViewArticle.aspx?id=5">
+                        <img src="image/card_3.jpg"></a>
+                    <h4>Sene Dolta – Lễ báo hiếu tổ tiên</h4>
                 </div>
 
                 <div class="card">
-                  <a href="ViewArticle.aspx?id=7"><img src="image/card_4.jpg" ></a>
-                  <h4>Rom Vong – Vũ điệu đoàn kết</h4>
+                    <a href="ViewArticle.aspx?id=7">
+                        <img src="image/card_4.jpg"></a>
+                    <h4>Rom Vong – Vũ điệu đoàn kết</h4>
                 </div>
             </div>
         </div>
     </section>
     <div class="news-section">
-  <div class="news-left">
-    <div class="overlay-content">
-      <h2>Tin tức</h2>
-      <a href="TinTuc.aspx">XEM TẤT CẢ</a>
+        <div class="news-left">
+            <div class="overlay-content">
+                <h2>Tin tức</h2>
+                <a href="TinTuc.aspx">XEM TẤT CẢ</a>
+            </div>
+        </div>
+        <div class="news-items">
+            <div class="news-item">
+                <a href="ViewArticle.aspx?id=4">
+                    <img src="image/tin_tuc_1.jpg"></a>
+                <div class="news-date">01/04/2025</div>
+                <div class="news-title">Lễ hội Ok Om Bok của người Khmer</div>
+                <div class="news-desc">Lễ hội cúng trăng Ok Om Bok là sự kiện văn hóa truyền thống quan trọng diễn ra vào tháng 10 âm lịch, thể hiện lòng biết ơn Mặt Trăng của người Khmer.</div>
+            </div>
+            <div class="news-item">
+                <a href="ViewArticle.aspx?id=3">
+                    <img src="image/tin_tuc_2.jpg"></a>
+                <div class="news-date">15/03/2025</div>
+                <div class="news-title">Lễ hội Chôl Chnăm Thmây – Tết cổ truyền Khmer</div>
+                <div class="news-desc">Chôl Chnăm Thmây đánh dấu năm mới theo lịch cổ truyền Khmer, diễn ra vào tháng 4 hàng năm với nhiều nghi lễ, múa hát và lễ tắm Phật.</div>
+            </div>
+            <div class="news-item">
+                <a href="ViewArticle.aspx?id=5">
+                    <img src="image/tin_tuc_3.jpg"></a>
+                <div class="news-date">25/02/2025</div>
+                <div class="news-title">Lễ hội Dâng bông dâng y Kathina</div>
+                <div class="news-desc">Lễ hội Kathina là dịp người Khmer dâng y và vật phẩm cúng dường lên chư tăng, thể hiện tinh thần hiếu kính và gắn bó cộng đồng.</div>
+            </div>
+        </div>
     </div>
-  </div>
-    <div class="news-items">
-    <div class="news-item">
-         <a href="ViewArticle.aspx?id=4"><img src="image/tin_tuc_1.jpg" ></a>
-      <div class="news-date">01/04/2025</div>
-      <div class="news-title">Lễ hội Ok Om Bok của người Khmer</div>
-      <div class="news-desc">Lễ hội cúng trăng Ok Om Bok là sự kiện văn hóa truyền thống quan trọng diễn ra vào tháng 10 âm lịch, thể hiện lòng biết ơn Mặt Trăng của người Khmer.</div>
-    </div>
-    <div class="news-item">
-         <a href="ViewArticle.aspx?id=3"><img src="image/tin_tuc_2.jpg" ></a>
-      <div class="news-date">15/03/2025</div>
-      <div class="news-title">Lễ hội Chôl Chnăm Thmây – Tết cổ truyền Khmer</div>
-      <div class="news-desc">Chôl Chnăm Thmây đánh dấu năm mới theo lịch cổ truyền Khmer, diễn ra vào tháng 4 hàng năm với nhiều nghi lễ, múa hát và lễ tắm Phật.</div>
-    </div>
-    <div class="news-item">
-         <a href="ViewArticle.aspx?id=5"><img src="image/tin_tuc_3.jpg" ></a>
-      <div class="news-date">25/02/2025</div>
-      <div class="news-title">Lễ hội Dâng bông dâng y Kathina</div>
-      <div class="news-desc">Lễ hội Kathina là dịp người Khmer dâng y và vật phẩm cúng dường lên chư tăng, thể hiện tinh thần hiếu kính và gắn bó cộng đồng.</div>
-    </div>
-  </div>
-</div>
 
 
     <form id="form1" runat="server">
@@ -749,42 +811,42 @@
         </div>
     </form>
 
-    
-<footer>
-  <div class="footer-container">
-    <div class="footer-column">
-      <div class="footer-logo">
-        <i class="fas fa-circle-notch"></i>
-          <div class="logo">
-        <img src="image/logo.png" alt="Logo">
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-circle-notch"></i>
+                    <div class="logo">
+                        <img src="image/logo.png" alt="Logo">
+                    </div>
+                </div>
             </div>
-      </div>    
-    </div>
 
-    <div class="footer-column">
-      <h4>Liên hệ</h4>
-      <p>khmer@gmail.com</p>
-      <p>Hồ Chí Minh, Việt Nam</p>
-      <p>+84 123456789</p>
-    </div>
+            <div class="footer-column">
+                <h4>Liên hệ</h4>
+                <p>khmer@gmail.com</p>
+                <p>Hồ Chí Minh, Việt Nam</p>
+                <p>+84 123456789</p>
+            </div>
 
-    <div class="footer-column">
-      <h4>Đăng ký</h4>
-      <p>Nhập Email của bạn để nhận thông báo mới nhất của chúng tôi</p>
-      <div class="subscribe-input">
-        <input type="email" placeholder="Email">
-        <i class="fas fa-envelope"></i>
-      </div>
-    </div>
-  </div>
+            <div class="footer-column">
+                <h4>Đăng ký</h4>
+                <p>Nhập Email của bạn để nhận thông báo mới nhất của chúng tôi</p>
+                <div class="subscribe-input">
+                    <input type="email" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
 
-  <div class="footer-bottom">
-    © 2025 Nguyen Tu Quy. ASP.NET
-  </div>
-</footer>
+        <div class="footer-bottom">
+            © 2025 Nguyen Tu Quy. ASP.NET
+        </div>
+    </footer>
 </body>
 </html>
 
-  
+
 
 

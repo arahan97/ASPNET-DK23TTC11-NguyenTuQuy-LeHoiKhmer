@@ -45,6 +45,7 @@
             text-align: center;
         }
         .btn {
+            gap: 5px;
             padding: 5px 10px;
             border: none;
             border-radius: 4px;

@@ -8,87 +8,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-              body {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-}
-                     /* header */  
-                   * {
-             box-sizing: border-box;
-             margin: 0;
-             padding: 0;
-         }
-     .hero {
-         position: relative;
-         background-image: url('image/banner_2.jpg');
-         background-size: cover;
-         background-position: center;
-         height: 30vh;
-         color: white;
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     .navbar {
-         position: absolute;
-         top: 0;
-         width: 100%;
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding: 1rem 2rem;
-         background-color: rgba(0, 0, 0, 0.3);
-     }
-     .nav-links {
-         list-style: none;
-         display: flex;
-         gap: 1.5rem;
-     }
-     .nav-links li a {
-         color: white;
-         text-decoration: none;
-     }
-     .social-icons a img {
-         width: 20px;
-         margin-left: 10px;
-     }
-     .hero-content h2 {
-         font-size: 2rem;
-         margin: 0;
-     }
-     .hero-content h1 {
-         font-size: 3rem;
-         margin: 0.5rem 0;
-     }
-     .btn {
-         padding: 0.75rem 1.5rem;
-         background-color: white;
-         color: black;
-         text-decoration: none;
-         border-radius: 4px;
-         margin-top: 1rem;
-         font-weight: bold;
-     }
-                 .logo {
-           display: flex;
-           align-items: center;
-         }
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        /* header */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-         .logo img {
-           height: 70px;
-         }
-                      body {
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              line-height: 1.6;
-              background: #fff;
-              color: #333;
-          }
-      
-             
+        .hero {
+            position: relative;
+            background-image: url('image/banner_2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 30vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+            .nav-links li a {
+                color: white;
+                text-decoration: none;
+            }
+
+        .social-icons a img {
+            width: 20px;
+            margin-left: 10px;
+        }
+
+        .hero-content h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+            .logo img {
+                height: 70px;
+            }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #fff;
+            color: #333;
+        }
+
+
 
         /* footer */
         footer {
@@ -196,29 +206,27 @@
             color: #888;
         }
         /* end footer */
-       
     </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-      <header class="hero">
-       <nav class="navbar">
-           <div class="logo">
-                   <img src="image/logo.png" alt="Logo">
-           </div>
-           <ul class="nav-links">
-               <li><a href="Default.aspx">Trang chủ</a></li>
-               <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
-               <li><a href="Lehoi.aspx">Lễ hội</a></li>
-               <li><a href="TinTuc.aspx">Tin tức</a></li>
-               <li><a href="LienHe.aspx">Liên hệ</a></li>
-           </ul>
-                       <div class="social-icons">
-    <a href="Admin/login.aspx">Đăng nhập</a>
-</div>
-       </nav>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="Default.aspx">Trang chủ</a></li>
+                <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
+                <li><a href="Lehoi.aspx">Lễ hội</a></li>
+                <li><a href="TinTuc.aspx">Tin tức</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="Admin/login.aspx">Đăng nhập</a>
+            </div>
+        </nav>
 
         <div class="hero-content">
             <h1>Tin Tức</h1>
@@ -230,7 +238,6 @@
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                
             </asp:ContentPlaceHolder>
         </div>
     </form>

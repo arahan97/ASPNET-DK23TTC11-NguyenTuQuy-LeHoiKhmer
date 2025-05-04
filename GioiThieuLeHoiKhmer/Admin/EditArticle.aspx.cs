@@ -53,11 +53,11 @@ namespace GioiThieuLeHoiKhmer.Admin
                             if (!string.IsNullOrEmpty(imagePath))
                             {
                                 imgPreview.ImageUrl = "~/" + imagePath;
-                                imgPreview.Visible = true; // <-- thêm dòng này để chắc chắn hình hiện lên
+                                imgPreview.Visible = true; 
                             }
                             else
                             {
-                                imgPreview.Visible = false; // không có ảnh thì ẩn đi
+                                imgPreview.Visible = false; 
                             }
                         }
                         else

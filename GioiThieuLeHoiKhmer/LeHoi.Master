@@ -4,426 +4,442 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Lễ Hội</title>
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <style>
+        /* header */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-              /* header */  
-                   * {
-             box-sizing: border-box;
-             margin: 0;
-             padding: 0;
-         }
-     .hero {
-         position: relative;
-         background-image: url('image/banner_2.jpg');
-         background-size: cover;
-         background-position: center;
-         height: 30vh;
-         color: white;
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     .navbar {
-         position: absolute;
-         top: 0;
-         width: 100%;
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-         padding: 1rem 2rem;
-         background-color: rgba(0, 0, 0, 0.3);
-     }
-     .nav-links {
-         list-style: none;
-         display: flex;
-         gap: 1.5rem;
-     }
-     .nav-links li a {
-         color: white;
-         text-decoration: none;
-     }
-     .social-icons a img {
-         width: 20px;
-         margin-left: 10px;
-     }
-     .hero-content h2 {
-         font-size: 2rem;
-         margin: 0;
-     }
-     .hero-content h1 {
-         font-size: 3rem;
-         margin: 0.5rem 0;
-     }
-     .btn {
-         padding: 0.75rem 1.5rem;
-         background-color: white;
-         color: black;
-         text-decoration: none;
-         border-radius: 4px;
-         margin-top: 1rem;
-         font-weight: bold;
-     }
-                 .logo {
-           display: flex;
-           align-items: center;
-         }
+        .hero {
+            position: relative;
+            background-image: url('image/banner_2.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 30vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
 
-         .logo img {
-           height: 70px;
-         }
-                      body {
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              line-height: 1.6;
-              background: #fff;
-              color: #333;
-          }
-         body {
-           margin: 0;
-           font-family: 'Open Sans', sans-serif;
-           background-color: #f5f5f5;
-         }
-             * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    background: #fff;
-    color: #333;
-}
-     /* end header */
-     .divider {
-  border: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, #ccc, transparent);
-  margin: auto;
-  width: 80%;
-}
-     * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fff;
-  color: #333;
-  line-height: 1.6;
-}
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 60px 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
-}
+            .nav-links li a {
+                color: white;
+                text-decoration: none;
+            }
 
-.text-content {
-  flex: 1 1 500px;
-  padding-right: 40px;
-}
+        .social-icons a img {
+            width: 20px;
+            margin-left: 10px;
+        }
 
-.text-content .location {
-  font-style: italic;
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
+        .hero-content h2 {
+            font-size: 2rem;
+            margin: 0;
+        }
 
-.text-content h1 {
-  font-size: 2rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
+        .hero-content h1 {
+            font-size: 3rem;
+            margin: 0.5rem 0;
+        }
 
-.text-content .visiting {
-  color: #aaa;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  font-size: 0.8rem;
-  margin-bottom: 20px;
-}
+        .btn {
+            padding: 0.75rem 1.5rem;
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-weight: bold;
+        }
 
-.description {
-  color: #555;
-  font-size: 1rem;
-  margin-bottom: 30px;
-}
+        .logo {
+            display: flex;
+            align-items: center;
+        }
 
-.description .highlight {
-  color: #f26964;
-}
+            .logo img {
+                height: 70px;
+            }
 
-.description a {
-  color: #444;
-  text-decoration: underline;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #fff;
+            color: #333;
+        }
 
-.read-more {
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  margin-bottom: 20px;
-}
+        body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f5f5f5;
+        }
 
-.social-icons a {
-  text-decoration: none;
-  margin-right: 20px;
-  color: #555;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
-}
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-.social-icons a:hover {
-  color: #f26964;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: #fff;
+            color: #333;
+        }
+        /* end header */
+        .divider {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #ccc, transparent);
+            margin: auto;
+            width: 80%;
+        }
 
-.image-content {
-  flex: 1 1 500px;
-  text-align: center;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.image-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
 
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    padding: 30px 20px;
-  }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-  .text-content, .image-content {
-    padding-right: 0;
-    text-align: center;
-  }
-}
+        .text-content {
+            flex: 1 1 500px;
+            padding-right: 40px;
+        }
+
+            .text-content .location {
+                font-style: italic;
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+
+            .text-content h1 {
+                font-size: 2rem;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+
+            .text-content .visiting {
+                color: #aaa;
+                text-transform: uppercase;
+                letter-spacing: 0.2em;
+                font-size: 0.8rem;
+                margin-bottom: 20px;
+            }
+
+        .description {
+            color: #555;
+            font-size: 1rem;
+            margin-bottom: 30px;
+        }
+
+            .description .highlight {
+                color: #f26964;
+            }
+
+            .description a {
+                color: #444;
+                text-decoration: underline;
+            }
+
+        .read-more {
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            margin-right: 20px;
+            color: #555;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+            .social-icons a:hover {
+                color: #f26964;
+            }
+
+        .image-content {
+            flex: 1 1 500px;
+            text-align: center;
+        }
+
+            .image-content img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+
+        /* Responsive */
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 30px 20px;
+            }
+
+            .text-content, .image-content {
+                padding-right: 0;
+                text-align: center;
+            }
+        }
 
         /* footer */
-footer {
-  background-color: #333;
-  color: #ccc;
-  padding: 50px 40px 20px;
-}
+        footer {
+            background-color: #333;
+            color: #ccc;
+            padding: 50px 40px 20px;
+        }
 
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-.footer-column {
-  flex: 1;
-  min-width: 220px;
-  margin-bottom: 30px;
-}
+        .footer-column {
+            flex: 1;
+            min-width: 220px;
+            margin-bottom: 30px;
+        }
 
-.footer-logo {
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
+        .footer-logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
 
-.footer-logo i {
-  font-size: 28px;
-  color: #fff;
-}
+            .footer-logo i {
+                font-size: 28px;
+                color: #fff;
+            }
 
-.social-icons {
-  display: flex;
-  gap: 15px;
-  margin-top: 10px;
-}
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
 
-.social-icons a {
-  background: #555;
-  color: white;
-  border-radius: 50%;
-  padding: 10px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 14px;
-  transition: background 0.3s;
-}
+            .social-icons a {
+                background: #555;
+                color: white;
+                border-radius: 50%;
+                padding: 10px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                font-size: 14px;
+                transition: background 0.3s;
+            }
 
-.social-icons a:hover {
-  background: #777;
-}
+                .social-icons a:hover {
+                    background: #777;
+                }
 
-.footer-column h4 {
-  color: white;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
-}
+        .footer-column h4 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
 
-.footer-column p,
-.footer-column a {
-  color: #bbb;
-  font-size: 14px;
-  margin: 5px 0;
-  text-decoration: none;
-}
+        .footer-column p,
+        .footer-column a {
+            color: #bbb;
+            font-size: 14px;
+            margin: 5px 0;
+            text-decoration: none;
+        }
 
-.subscribe-input {
-  display: flex;
-  align-items: center;
-  background: #666;
-  padding: 10px;
-  border-radius: 6px;
-  max-width: 300px;
-}
+        .subscribe-input {
+            display: flex;
+            align-items: center;
+            background: #666;
+            padding: 10px;
+            border-radius: 6px;
+            max-width: 300px;
+        }
 
-.subscribe-input input {
-  border: none;
-  outline: none;
-  background: transparent;
-  color: white;
-  font-size: 14px;
-  flex: 1;
-}
+            .subscribe-input input {
+                border: none;
+                outline: none;
+                background: transparent;
+                color: white;
+                font-size: 14px;
+                flex: 1;
+            }
 
-.subscribe-input i {
-  color: #78bbe6;
-}
+            .subscribe-input i {
+                color: #78bbe6;
+            }
 
-.footer-bottom {
-  text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid #444;
-  padding-top: 10px;
-  font-size: 13px;
-  color: #888;
-}
-/* end footer */
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 10px;
+            font-size: 13px;
+            color: #888;
+        }
+        /* end footer */
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <header class="hero">
-     <nav class="navbar">
-         <div class="logo">
-                 <img src="image/logo.png" alt="Logo">
-         </div>
-                  <ul class="nav-links">
-             <li><a href="Default.aspx">Trang chủ</a></li>
-             <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
-             <li><a href="Lehoi.aspx">Lễ hội</a></li>
-             <li><a href="TinTuc.aspx">Tin tức</a></li>
-             <li><a href="LienHe.aspx">Liên hệ</a></li>
-         </ul>
-         <div class="social-icons">
-    <a href="Admin/login.aspx">Đăng nhập</a>
-</div>
-     </nav>
-     <div class="hero-content">
-         <h1>4 Lễ hội lớn của người Khmer</h1>
-     </div>
- </header>
-     <section class="festival-list">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="image/logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="Default.aspx">Trang chủ</a></li>
+                <li><a href="GioiThieu.aspx">Giới thiệu</a></li>
+                <li><a href="Lehoi.aspx">Lễ hội</a></li>
+                <li><a href="TinTuc.aspx">Tin tức</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="Admin/login.aspx">Đăng nhập</a>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>4 Lễ hội lớn của người Khmer</h1>
+        </div>
+    </header>
+    <section class="festival-list">
 
-    <!-- 1. Lễ hội Chôl Chnăm Thmây -->
-    <div class="container">
-      <div class="text-content">
-        <p class="location">Campuchia</p>
-        <h1>Lễ hội Chôl Chnăm Thmây</h1>
-        <p class="visiting">Tết cổ truyền</p>
-        <p class="description">
-          Chôl Chnăm Thmây là Tết cổ truyền của người Khmer, diễn ra vào tháng 4 dương lịch, nhằm đón mừng năm mới theo lịch Khmer. 
+        <!-- 1. Lễ hội Chôl Chnăm Thmây -->
+        <div class="container">
+            <div class="text-content">
+                <p class="location">Campuchia</p>
+                <h1>Lễ hội Chôl Chnăm Thmây</h1>
+                <p class="visiting">Tết cổ truyền</p>
+                <p class="description">
+                    Chôl Chnăm Thmây là Tết cổ truyền của người Khmer, diễn ra vào tháng 4 dương lịch, nhằm đón mừng năm mới theo lịch Khmer. 
           Người dân tổ chức dâng cơm chùa, tắm tượng Phật, xây tháp cát và cầu phúc cho gia đình.
-        </p>
-        <p class="read-more">
-    <a href="ViewArticle.aspx?id=3">Đọc thêm</a>
-</p>
-      </div>
-      <div class="image-content">
-                  <a href="ViewArticle.aspx?id=3"><img src="image/card_1.jpg" ></a>
-      </div>
-    </div>
-         <hr class="divider">
-    <!-- 2. Lễ hội Ok Om Bok -->
-    <div class="container">
-      <div class="text-content">
-        <p class="location">Đồng bằng Sông Cửu Long</p>
-        <h1>Lễ hội Ok Om Bok</h1>
-        <p class="visiting">Lễ cúng trăng</p>
-        <p class="description">
-          Lễ Ok Om Bok diễn ra vào rằm tháng 10 âm lịch để tạ ơn thần Mặt Trăng đã bảo vệ mùa màng. 
+                </p>
+                <p class="read-more">
+                    <a href="ViewArticle.aspx?id=3">Đọc thêm</a>
+                </p>
+            </div>
+            <div class="image-content">
+                <a href="ViewArticle.aspx?id=3">
+                    <img src="image/card_1.jpg"></a>
+            </div>
+        </div>
+        <hr class="divider">
+        <!-- 2. Lễ hội Ok Om Bok -->
+        <div class="container">
+            <div class="text-content">
+                <p class="location">Đồng bằng Sông Cửu Long</p>
+                <h1>Lễ hội Ok Om Bok</h1>
+                <p class="visiting">Lễ cúng trăng</p>
+                <p class="description">
+                    Lễ Ok Om Bok diễn ra vào rằm tháng 10 âm lịch để tạ ơn thần Mặt Trăng đã bảo vệ mùa màng. 
           Người Khmer tổ chức đua ghe ngo, thả đèn nước và nghi lễ truyền thống đậm sắc văn hóa.
-        </p>
-       <p class="read-more">
-    <a href="ViewArticle.aspx?id=4">Đọc thêm</a>
-</p>
-      </div>
-      <div class="image-content">
-                  <a href="ViewArticle.aspx?id=4"><img src="image/card_2.jpg" ></a>
-      </div>
-    </div>
-         <hr class="divider">
-    <!-- 3. Lễ hội Sene Đôlta -->
-    <div class="container">
-      <div class="text-content">
-        <p class="location">Nam Bộ</p>
-        <h1>Lễ hội Sene Đôlta</h1>
-        <p class="visiting">Lễ cúng ông bà</p>
-        <p class="description">
-          Sene Đôlta là dịp để người Khmer tưởng nhớ tổ tiên. 
+                </p>
+                <p class="read-more">
+                    <a href="ViewArticle.aspx?id=4">Đọc thêm</a>
+                </p>
+            </div>
+            <div class="image-content">
+                <a href="ViewArticle.aspx?id=4">
+                    <img src="image/card_2.jpg"></a>
+            </div>
+        </div>
+        <hr class="divider">
+        <!-- 3. Lễ hội Sene Đôlta -->
+        <div class="container">
+            <div class="text-content">
+                <p class="location">Nam Bộ</p>
+                <h1>Lễ hội Sene Đôlta</h1>
+                <p class="visiting">Lễ cúng ông bà</p>
+                <p class="description">
+                    Sene Đôlta là dịp để người Khmer tưởng nhớ tổ tiên. 
           Diễn ra vào tháng 9 âm lịch, lễ hội có các nghi lễ truyền thống, tụ họp gia đình và cúng dường tại chùa.
-        </p>
-        <p class="read-more">
-    <a href="ViewArticle.aspx?id=5">Đọc thêm</a>
-</p> 
-      </div>
-      <div class="image-content">
-                  <a href="ViewArticle.aspx?id=5"><img src="image/card_4.jpg" ></a>
-      </div>
-    </div>
-         <hr class="divider" />
-    <!-- 4. Lễ dâng y Kathina -->
-    <div class="container">
-      <div class="text-content">
-        <p class="location">Chùa Khmer</p>
-        <h1>Lễ dâng y Kathina</h1>
-        <p class="visiting">Phật giáo Nam Tông</p>
-        <p class="description">
-          Kathina là lễ dâng y sau mùa an cư kiết hạ, diễn ra vào tháng 10 âm lịch. 
+                </p>
+                <p class="read-more">
+                    <a href="ViewArticle.aspx?id=5">Đọc thêm</a>
+                </p>
+            </div>
+            <div class="image-content">
+                <a href="ViewArticle.aspx?id=5">
+                    <img src="image/card_4.jpg"></a>
+            </div>
+        </div>
+        <hr class="divider" />
+        <!-- 4. Lễ dâng y Kathina -->
+        <div class="container">
+            <div class="text-content">
+                <p class="location">Chùa Khmer</p>
+                <h1>Lễ dâng y Kathina</h1>
+                <p class="visiting">Phật giáo Nam Tông</p>
+                <p class="description">
+                    Kathina là lễ dâng y sau mùa an cư kiết hạ, diễn ra vào tháng 10 âm lịch. 
           Phật tử Khmer mang y ca sa, vật phẩm thiết yếu đến chùa dâng lên chư Tăng với lòng thành kính.
-        </p>
-        <p class="read-more">
-            <a href="ViewArticle.aspx?id=7">Đọc thêm</a>
-        </p>
-      </div>
-      <div class="image-content">
-                  <a href="ViewArticle.aspx?id=7"><img src="image/card_4.jpg" ></a>
-      </div>
-    </div>
+                </p>
+                <p class="read-more">
+                    <a href="ViewArticle.aspx?id=7">Đọc thêm</a>
+                </p>
+            </div>
+            <div class="image-content">
+                <a href="ViewArticle.aspx?id=7">
+                    <img src="image/card_4.jpg"></a>
+            </div>
+        </div>
 
-  </section>
+    </section>
 
     <form id="form1" runat="server">
         <div>
@@ -432,39 +448,39 @@ footer {
         </div>
     </form>
 
-  <footer>
-  <div class="footer-container">
-    <div class="footer-column">
-      <div class="footer-logo">
-        <i class="fas fa-circle-notch"></i>
-          <div class="logo">
-        <img src="image/logo.png" alt="Logo">
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="footer-logo">
+                    <i class="fas fa-circle-notch"></i>
+                    <div class="logo">
+                        <img src="image/logo.png" alt="Logo">
+                    </div>
+                </div>
             </div>
-      </div>    
-    </div>
 
-    <div class="footer-column">
-      <h4>Liên hệ</h4>
-      <p>khmer@gmail.com</p>
-      <p>Hồ Chí Minh, Việt Nam</p>
-      <p>+84 123456789</p>
-    </div>
+            <div class="footer-column">
+                <h4>Liên hệ</h4>
+                <p>khmer@gmail.com</p>
+                <p>Hồ Chí Minh, Việt Nam</p>
+                <p>+84 123456789</p>
+            </div>
 
-    <div class="footer-column">
-      <h4>Đăng ký</h4>
-      <p>Nhập Email của bạn để nhận thông báo mới nhất của chúng tôi</p>
-      <div class="subscribe-input">
-        <input type="email" placeholder="Email">
-        <i class="fas fa-envelope"></i>
-      </div>
-    </div>
-  </div>
+            <div class="footer-column">
+                <h4>Đăng ký</h4>
+                <p>Nhập Email của bạn để nhận thông báo mới nhất của chúng tôi</p>
+                <div class="subscribe-input">
+                    <input type="email" placeholder="Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
 
-  <div class="footer-bottom">
-    © 2025 Nguyen Tu Quy. ASP.NET
-  </div>
-</footer>
+        <div class="footer-bottom">
+            © 2025 Nguyen Tu Quy. ASP.NET
+        </div>
+    </footer>
 
 </body>
-   
+
 </html>

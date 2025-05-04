@@ -40,7 +40,6 @@ namespace GioiThieuLeHoiKhmer.Admin
 
                 string filename = Path.GetFileName(fileImage.FileName);
 
-                // Nếu cần an toàn hơn: thêm timestamp để tránh trùng file
                 string uniqueFilename = DateTime.Now.ToString("yyyyMMddHHmmss_") + filename;
                 string savePath = Path.Combine(uploadsFolder, uniqueFilename);
 
