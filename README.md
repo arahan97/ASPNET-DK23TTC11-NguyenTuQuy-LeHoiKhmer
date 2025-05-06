@@ -1,4 +1,4 @@
-# Website  giới thiệu lễ hội của dân tộc khmer🎉
+# Website  giới thiệu lễ hội của dân tộc khmer
 
 Website ASP.NET giới thiệu các lễ hội truyền thống của người dân tộc Khmer, được xây dựng nhằm phục vụ việc phổ biến văn hóa, lưu giữ bản sắc dân tộc và cung cấp thông tin trực quan cho người dùng.
 
