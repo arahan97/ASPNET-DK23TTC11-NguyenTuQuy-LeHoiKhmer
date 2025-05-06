@@ -12,7 +12,6 @@ namespace GioiThieuLeHoiKhmer
 {
     public partial class TinTuc1 : System.Web.UI.Page
     {
-        // Đây là hàm giả lập lấy dữ liệu. Bạn thay bằng lấy từ database nhé.
         private DataTable GetArticles()
         {
             string connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;

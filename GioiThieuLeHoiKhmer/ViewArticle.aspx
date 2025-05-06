@@ -288,9 +288,7 @@
         </nav>
 
         <div class="hero-content">
-            <h2>Ok Om Bok</h2>
-            <h1>Lễ Hội cúng Trăng</h1>
-            <a href="#" class="btn">Xem Thêm</a>
+            <h1>Chi tiết tin tức</h1>
         </div>
     </header>
 
