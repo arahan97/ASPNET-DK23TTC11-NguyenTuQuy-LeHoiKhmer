@@ -50,7 +50,7 @@ git clone https://github.com/your-username/ASPNET-DK23TTC11-NguyenTuQuy-LeHoiKhm
 - Tài khoản editor:
     - tài khoản: editor1
     - mật khẩu: editor123
-*Bạn có thể truy xuất thông tin tài khoản ở bảng User
+- Bạn có thể truy xuất thông tin tài khoản ở bảng User của Database
 ---
 
 ## Tính năng chính
